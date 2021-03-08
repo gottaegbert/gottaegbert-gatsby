@@ -1,26 +1,12 @@
-# Gatsby Starter Portfolio Minimal
+# Personal website using Gatsby
 
 #### A modern one-page portfolio with a clean yet expressive design.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/16b36180-0897-40c5-925c-fefa0232555c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-portfolio-minimal/deploys)
 
-Portfolio Minimal is a Gatsby Starter. Starters are boilerplate projects that can be used to set up new sites effortless. With this starter, you can create a modern one-page portfolio within minutes.
-
-Just install the starter, add your content, and there you go!
-
-<a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a> · <a href="#feedback">Feedback</a>
-
-<a href="https://gatsby-starter-portfolio-minimal.netlify.app/" target="_blank"><strong>>> LIVE DEMO</strong></a>
-
-<a href="https://konstantin.digital/" target="_blank"><strong>>> LIVE DEMO (with Splash Screen)</strong></a>
-
 **New Features:** 🌛 Dark Mode · 🪟 Splash Screen
 
----
-
-<img src="screenshot.png" alt="Gatsby Starter Portfolio Minimal Screenshot" width="600" />
-
----
+## --
 
 ## Sections
 
@@ -57,40 +43,6 @@ The starter includes predefined sections as well as a template for new, custom s
 #### 💅 Responsive Design - With freshening animations.
 
 The starter is designed with a mobile-first approach and looks perfect on small and large breakpoints. Moreover, it has some nice and smooth animations.
-
-#### <img src="http://logok.org/wp-content/uploads/2015/10/Medium-logo-old.png" alt="Medium Icon" width="20" /> Medium Integration - Features latest articles.
-
-In case you are a writer on Medium, the starter has a easy to use Medium integration that allows you to feature your latest articles.
-
-To see all features in action, have a look at the <a href="https://gatsby-starter-portfolio-minimal.netlify.app/" target="_blank"><strong>live demo</strong></a>.
-
----
-
-## How to Start
-
-With Portfolio Minimal, you get up and running in just a few minutes.
-
-1. **Install the Gatsby CLI.**
-
-   ```
-   npm install -g gatsby-cli
-
-   ```
-
-2. **Create a new Gatsby site with the Portfolio Minimal starter.**
-
-   ```
-   gatsby new portfolio-minimal https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal
-   ```
-
-3. **Start the site in `develop` mode.**
-
-   ```
-   cd portfolio-minimal
-   gatsby develop
-   ```
-
-4. **Open the source code and start editing!**
 
 ---
 
@@ -150,20 +102,6 @@ Each section (besides the Articles section) exists of an imported React componen
 ### Add custom sections
 
 If you want to add your own custom sections, there is a section template you can use. You can find it in the following directory: `src/components/templates`
-
----
-
-## Feedback
-
-Designing and building a portfolio from scratch can be tough. To inspire you and provide you a foundation to build upon, I've decided to publish [my personal website](https://konstantin.digital) as a Gatsby Starter. This boilerplate project should motivate you to build your own awesome portfolio with Gatsby.
-
-I always appreciate feedback, so share your thoughts and suggestions with me: [mail@konstantin.digital](mailto:mail@konstantin.digital)
-
-If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
-
-Thanks a lot for using this starter! 💪
-
----
 
 ## License
 
