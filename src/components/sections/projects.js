@@ -128,7 +128,8 @@ const StyledProject = styled(motion.div)`
     padding-right: 0;
     /* Positioning of image and details should vary */
     flex-direction: ${({ position }) =>
-      position % 2 !== 0 ? "row" : "row-reverse"};
+      position % 1 !== 0 ? "row" : "row-reverse"};
+    // 二、控制左右
   }
   .details {
     width: 100%;
@@ -194,7 +195,7 @@ const StyledProject = styled(motion.div)`
       box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
     }
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
-      height: 18.75rem;
+      height: 18.75rem; //三、111111111111改变height动画
     }
   }
 `
